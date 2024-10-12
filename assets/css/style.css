@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /* COLORS */
+    /* Neutrals */
+    --neutral-black: #263238;
+    --neutral-d-grey: #4D4D4D;
+    --neutral-grey: #717171;
+    --neutral-l-grey: #89939E;
+    --neutral-grey-blue: #ABBED1;
+    --neutral-silver: #F5F7FA;
+    --neutral-white: #FFFFFF;
+    /* Primary */
+    /* --primary-primary: #28CB8B; */
+    --primary-primary: #4CAF4F;
+    --primary-secondary: #263238;
+    --primary-info: #2194f3;
+    /* Shades */
+    --color-shade-1:#43A046;
+    --color-shade-2:#388E3B;
+    --color-shade-3:#237D31;
+    --color-shade-4:#1B5E1F;
+    --color-shade-5:#103E13;
+    /* Tints */
+    --color-tint-1: #66BB69;
+    --color-tint-2: #81C784;
+    --color-tint-3: #A5D6A7;
+    --color-tint-4: #C8E6C9;
+    --color-tint-5: #E8F5E9;
+    /* Actions */
+    --action-warning: #FBC02D;
+    --action-error: #E53835;
+    --action-success: #2E7D31;
+
+    /* TYPOGRAFIE */
+    /* Headings */
+    --h1: 6.4rem;
+    --h1-line: 7.6rem;
+    --h2: 3.6rem;
+    --h2-line: 4.4rem;
+    --h3: 2.8rem;
+    --h3-line: 3.6rem;
+    --h4: 2.0rem;
+    --h4-line: 2.8rem;
+    /* Body */
+    --body-1: 1.8rem;
+    --body-1-line: 2.8rem;
+    --body-2: 1.6rem;
+    --body-2-line: 2.4rem;
+    --body-3: 1.4rem;
+    --body-3-line: 2.0rem;
+    --body-4: 1.2rem;
+    --body-4-line: 1.6rem;
+
+    /* SHADOWS */
+    /* ------- nicht korrekt, müssen geprüft werden ------- */
+    --shadow-small: 0px 2px 2px var(--neutral-grey-blue);
+    --shadow-small-2: 0px 4px 4px var(--neutral-grey-blue);
+    --shadow-medium: 0px 6px 6px var(--neutral-grey-blue);
+    --shadow-big: 0px 8px 8px var(--neutral-grey-blue);
+    --shadow-big-2: 0px 16px 16px var(--neutral-grey-blue);
+
+    /* MARGINS */
+    --margin-big: 14.4rem;
+    --margin-small: 2.4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+}
+
+/* --------------------------------------- */
+
+/* GENERAL STYLE */
+/* Text */
+h1 {
+    font-size: var(--h1);
+    line-height: var(--h1-line);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: var(--h2);
+    line-height: var(--h2-line);
+    font-weight: 600;
+}
+
+.body2 {
+    font-size: var(--body-2);
+    line-height: var(--body-2-line);
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.color_primary {
+    color: var(--primary-primary);
+}
+
+.btn_normal {
+    padding: 1.6rem 3.2rem;
+    font-size: var(--body-1);
+    border-radius: 0.4rem;
+}
+
+.btn_medium {
+    padding: 1.4rem 3.2rem;
+    font-size: var(--body-2);
+    border-radius: 0.4rem;
+}
+
+.btn_primary {
+    color: var(--neutral-white);
+    background-color: var(--primary-primary);
+    border: none;
+}
+
+.btn_tertiary {
+    color: var(--primary-primary);
+    background-color: var(--neutral-white);
+    border: none;
+}
