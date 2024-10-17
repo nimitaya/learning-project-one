@@ -85,27 +85,43 @@ h1 {
     font-size: var(--h1);
     line-height: var(--h1-line);
     font-weight: 600;
+    color: var(--neutral-d-grey);
 }
 
 h2 {
     font-size: var(--h2);
     line-height: var(--h2-line);
     font-weight: 600;
+    color: var(--neutral-d-grey);
 }
 
 .body2 {
     font-size: var(--body-2);
     line-height: var(--body-2-line);
+    color: var(--neutral-grey);
 }
 
 .medium {
     font-weight: 500;
 }
 
+/* Colors */
 .color_primary {
     color: var(--primary-primary);
 }
 
+.color_faded {
+    color: var(--primary-primary);
+    opacity: 0.3;
+}
+
+/* Links */
+.link_dark {
+    color: var(--neutral-black);
+    text-decoration: none;
+}
+
+/* Buttons */
 .btn_normal {
     padding: 1.6rem 3.2rem;
     font-size: var(--body-1);
@@ -128,4 +144,27 @@ h2 {
     color: var(--primary-primary);
     background-color: var(--neutral-white);
     border: none;
+}
+
+/* Abstände */
+section {
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8.4rem;
+}
+
+.header_menu_nav {
+    display: flex;
+    gap: 5rem;
+}
+
+.header_menu_user {
+    display: flex;
+    gap: 1.4rem;
 }
