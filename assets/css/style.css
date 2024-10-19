@@ -53,7 +53,6 @@
     --body-4-line: 1.6rem;
 
     /* SHADOWS */
-    /* ------- nicht korrekt, müssen geprüft werden ------- */
     --shadow-small: 0px 2px 4px var(--neutral-grey-blue);
     --shadow-small-2: 0px 4px 8px var(--neutral-grey-blue);
     --shadow-medium: 0px 6px 12px var(--neutral-grey-blue);
