@@ -100,6 +100,11 @@ h3 {
     line-height: var(--h3-line);
 }
 
+h4 {
+    font-size: var(--h4);
+    line-height: var(--h4-line);
+}
+
 .body2, .body3 {
     color: var(--neutral-grey);
 }
@@ -143,12 +148,14 @@ header {
     padding: 1.6rem 3.2rem;
     font-size: var(--body-1);
     border-radius: 0.4rem;
+    cursor: pointer;
 }
 
 .btn_medium {
     padding: 1.4rem 3.2rem;
     font-size: var(--body-2);
     border-radius: 0.4rem;
+    cursor: pointer;
 }
 
 .btn_primary {
@@ -298,6 +305,7 @@ header, main, footer {
     gap: 4.8rem;
     align-items: center;
     height: 28.8rem;
+    margin-bottom: 4.8rem;
     background-color: var(--neutral-silver);
 }
 
@@ -311,7 +319,6 @@ header, main, footer {
     grid-template-rows: auto;
     row-gap: 4rem;
     column-gap: 3rem;
-    
 }
 
 .helping_details_box {
@@ -339,3 +346,58 @@ header, main, footer {
     grid-area: p;
     align-self: center;
 }
+
+/* How To */
+.how-to {
+    padding: 5.2rem var(--margin-big);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    height: 43.3rem;
+    margin-bottom: 4.8rem;
+}
+
+.how-to p {
+    margin-top: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.how-to_text {
+    padding-right: 9.6rem;
+}
+
+/* Customers */
+.customers {
+    background-color: var(--neutral-silver);
+    padding: 3.2rem var(--margin-big);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.customers_box {
+    width: 74.8rem;
+}
+
+.customers h4 {
+    color: var(--primary-primary);
+}
+
+.customers_box > p:first-child {
+    padding-bottom: 1.6rem;
+}
+
+.customers_box > p:nth-child(2) {
+    padding-top: 0.8rem;
+    color: var(--neutral-l-grey);
+}
+
+.customers_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.2rem;
+}
+
+/* Marketing */
