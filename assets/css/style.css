@@ -186,6 +186,12 @@ header, main, footer {
 }
 
 /* HEADER */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 .header_menu {
     display: flex;
     justify-content: space-around;
@@ -409,6 +415,7 @@ header, main, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 4.8rem;
     margin-bottom: 9.46rem;
 }
 
@@ -466,9 +473,15 @@ footer {
 }
 
 .footer_company {
+    height: 18.8rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+}
+
+.footer_company_icons {
+    display: flex;
+    gap: 1.6rem;
 }
 
 .footer_company_icons a {
@@ -481,4 +494,36 @@ footer {
 .footer_info {
     display: flex;
     gap: 3rem;
+}
+
+.footer_info_box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+
+input {
+    width: 25.5rem;
+    height: 4rem;
+    background-color: var(--neutral-l-grey);
+    border: none;
+    border-radius: 1rem;
+
+    &::placeholder {
+        color: var(--neutral-silver);
+        padding-left: 1.2rem;
+    }
+}
+
+.plane-box {
+    position: relative;
+}
+
+.plane::after {
+    font-family: "fontawesome";
+    content: "\f1d8";
+    position: absolute;
+    top: 4.7rem;
+    right: 1.5rem;
 }
